@@ -1,0 +1,12 @@
+1.   Can we override static method in java?
+
+No, we can not override static method in java. Static methods are those which can be called without creating object of class,they are class level methods.
+
+On other hand,If subclass is having same method signature as base class then it is known as method overriding. Its execution decided at run time.
+
+Below are the reasons why we can’t override static method in java:-
+
+Static methods are those which belong to the class.They do not belong to the object and in overriding, object decides which method is to be called.
+Method overriding occurs dynamically(run time) that means which method is to be executed decided at run time according to object used for calling while static methods are looked up statically(compile time).
+2.   Can you overload main method in java?
+https://java2blog.com/can-we-overload-main-method-java/
